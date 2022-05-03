@@ -1,4 +1,7 @@
 (defsystem "hello-roswell"
+  :build-operation program-op
+  :build-pathname "hello-roswell"
+  :entry-point "hello-roswell:main"
   :version "0.1.0"
   :author ""
   :license ""
